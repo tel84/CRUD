@@ -1,6 +1,6 @@
 CREATE TABLE `test`.`user` (
   `id` INT NOT NULL AUTO_INCREMENT,
-  `name` VARCHAR(20) NOT NULL,
+  `name` VARCHAR(255) NOT NULL,
   `age` INT(3) NOT NULL,
   `isAdmin` BIT(1) NOT NULL,
   `createdDate` TIMESTAMP NOT NULL,
