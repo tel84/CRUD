@@ -1,0 +1,38 @@
+CREATE TABLE `test`.`user` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(20) NOT NULL,
+  `age` INT(3) NOT NULL,
+  `isAdmin` BIT(1) NOT NULL,
+  `createdDate` TIMESTAMP NOT NULL,
+  PRIMARY KEY (`id`));
+
+#init users
+
+insert into user (name, age, isAdmin) values ('Tel', 32, TRUE ),
+('Max', 5, false),
+('Ivan', 45, TRUE ),
+('Vasya', 35, false),
+('Igor', 13, TRUE ),
+('Kolya', 56, false),
+('Tel', 65, false),
+('Max', 23, false),
+('Igor', 43, false),
+('Anton', 12, TRUE ),
+('Barni', 26, false),
+('Victor', 34, false),
+('Max', 54, false),
+('Den', 34, false),
+('Igor', 7, TRUE ),
+('Max', 23, false),
+('Jon', 43, false),
+('Antoni', 54, TRUE ),
+('Mikhail', 14, TRUE ),
+('Max', 32, false),
+('Alex', 40, false),
+('Max', 23, false),
+('Max', 43, TRUE ),
+('Max', 20, false),
+('Fake', 15, false),
+('Rihard', 21, false),
+('Lincoln', 18, false),
+('Gregori', 43, false);
